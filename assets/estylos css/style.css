@@ -1,0 +1,61 @@
+body{
+    background-image: url(./fondos/fondo.avif);
+    background-repeat: repeat 4;
+    font-size: 23px;
+    margin: 100px;
+}
+.caja{display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    min-height: 500px;
+    min-width: 100px;
+}
+.container{
+    backdrop-filter: blur(15px);
+    border: 5px solid rgb(27, 23, 23);
+    border-radius: 30px;
+    border-radius: 1px;
+    overflow: hidden;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: wrap;
+}
+
+h1{
+    transition-timing-function: cubic-bezier(0.175, 0.92, 0.265, 5);
+    color: rgb(106, 189, 189);
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+     }
+label{
+    color: rgb(150, 172, 192);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p{
+    color: rgb(217, 223, 230);
+}
+.boton{
+    background-color: rgb(59, 134, 112);
+}
+input{
+    font-size: large;
+}
+@media only screen and (max-width: 500px) {
+    .caja {
+    
+    width: 100px;
+    height: 100px;
+    }
+}
+
